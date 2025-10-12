@@ -1,0 +1,53 @@
+/* Stili di base */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.timer-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 300px;
+}
+
+#display {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputs input {
+  width: 60px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  padding: 8px 14px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
